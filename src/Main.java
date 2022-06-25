@@ -23,7 +23,8 @@ public class Main {
             System.out.print(digits[k]+" ");
         }*/
 
-        // 3. Произвольный массив – тип и количество данных определите сами. Самостоятельно выберите способ создания массива:
+        // 3. Произвольный массив – тип и количество данных определите сами. Самостоятельно выберите
+        // способ создания массива:
         // с помощью ключевого слова или сразу заполненный элементами.
         // - **Критерии оценки**
         //- Целочисленный массив создан с помощью ключевого слова new
@@ -47,25 +48,40 @@ public class Main {
         //      - В консоль выведены все элементы второго массива в верном порядке через запятую
         //     - В консоль выведены все элементы третьего массива в верном порядке через запятую
         //    - На одной строчке расположены элементы только одного массива
-       /* System.out.println();
-
-
-        int [] numbers = new int[]{1,2,3};
-      for (int i=0; i< numbers.length; ) {
-            System.out.print(numbers[i] + ", ");
-            i++;
-        }
         System.out.println();
+
+
+      /*  int [] number = new int[3];
+        number[0] = 1;
+        number[1] = 2;
+        number[2] = 3;
+      for (int i=0; i< number.length;i++ ){
+      if( i !=number.length - 1)
+      System.out.print(number[i] + ", ");
+      else
+      System.out.print(number[i]);
+
+        }*/
+
+       /* System.out.println();
       int []salary = new int[12];
         salary[0]=30_500;
         for ( int f=0;f<12;f++){
+        if( f != salary.length-1)
             System.out.print(salary[f] + ", ");
+            else
+            System.out.println(salary[f]);
         }
         System.out.println();
 
         float [] digits = new float[]{1.57f ,7.654f ,9.986f};
         for( int k=0; k<3; k++){
+            if( k!=3-1)
             System.out.print(digits[k]+", ");
+            else
+                System.out.println(digits[k]);
+
+
         }*/
 
         // 3 задача
@@ -87,24 +103,42 @@ public class Main {
         // - В консоль выведены все элементы второго массива в обратном порядке через запятую
         // - В консоль выведены все элементы третьего массива в обратном порядке через запятую
         //- На одной строчке расположены элементы только одного массива
-        /*System.out.println();
-        int [] numbers = new int[]{1,2,3};
-        for (int i=0; i< numbers.length; ) {
-            System.out.print(numbers[i] + ", ");
-            i++;
-        }
         System.out.println();
-        int []salary = new int[12];
-        salary[0]=30_500;
-        for ( int f=0;f<12;f++){
-            System.out.print(salary[f] + ", ");
+        
+        /*int [] numbers = new int[]{1,2,3};
+        for (int i=numbers.length -1; i>= 0;i-- ) {
+            if(i>0)
+            System.out.print(numbers[i] + ", ");
+            else
+                System.out.println(numbers[i]);
+
         }
         System.out.println();
 
+        int []salary = new int[12];
+        salary[0]=30_500;
+        for ( int f=salary.length-1;f>=0;f--) {
+            if (f>0)
+                System.out.print(salary[f] + ", ");
+            else
+                System.out.print(salary[f]);
+
+        }
+
+        System.out.println();
+
         float [] digits = new float[]{1.57f ,7.654f ,9.986f};
-        for( int k=0; k<3; k++){
+        for( int k=3-1; k>=0; k--){
+        if(k>0)
             System.out.print(digits[k]+", ");
-        }*/
+            else
+             System.out.print(digits[k]);
+
+        }
+
+         */
+
+
 
         /*4 задача
 
@@ -118,14 +152,21 @@ public class Main {
                 - Все нечетные числа в целочисленном массиве четные с помощью прибавления 1
                 - В консоли распечатан только целочисленный массив*/
         System.out.println();
-        int [] numbers = {1,2,3};
-        for (int i=2; i!= numbers.length; ) {
-            System.out.print(numbers[i] + ", ");
-            i--;
-        }
+        int[] numbers = {1, 2, 3};
+        if(int i=0; i< numbers.length; i++){
+        if(numbers[i]%2==1)
+            numbers[i]++;
+        if(i<numbers.length-1)
+            System.out.println(numbers[i]+",");
+        else
+            s(numbers)
+
+
 
     }
+
 }
+
         
         
     
