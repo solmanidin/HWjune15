@@ -159,7 +159,7 @@ public class Main {
         if(i<numbers.length-1)
             System.out.println(numbers[i]+",");
         else
-            s(numbers)
+
 
 
 
