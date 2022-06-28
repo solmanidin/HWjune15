@@ -7,21 +7,21 @@ public class Main {
         //объявление массива из 12-ти элементов, заполненного нулями
         // int [] weight = new int [12];
 
-       /* int [] numbers = new int[]{1,2,3};
-        int i=0;
-        while (i< numbers.length) {
-            System.out.print(numbers[i] + " ");
-            i++;
-        }*/
+        int c=0;
+        int[] numbers2 = new int[]{1, 2, 3};
+        while (c< numbers2.length) {
+            System.out.print(numbers2[c] + " ");
+            c++;
+        }
         // 2. Массив, в котором можно хранить три дробных числа – 1.57, 7.654, 9.986 – сразу заполнив его значениями
         //объявление целочисленного массива, заполненного 12 элементами
         // int [] weight = {90, 91, 93, 92, 85, 87, 84, 83, 0, 0, 0, 0};
-       /* System.out.println();
+       System.out.println();
 
         float [] digits = new float[]{1.57f ,7.654f ,9.986f};
         for( int k=0; k<3; k++){
             System.out.print(digits[k]+" ");
-        }*/
+        }
 
         // 3. Произвольный массив – тип и количество данных определите сами. Самостоятельно выберите
         // способ создания массива:
@@ -31,13 +31,13 @@ public class Main {
         //     - Массив с дробными числами создан и сразу заполнен значениями
         // - Создан любой произвольный массив одним из двух способов, рассмотренных в уроке
 
-       /* System.out.println();
+        System.out.println();
 
-        int []salary = new int[12];
-       salary[0]=30_500;
+        int []salary1 = new int[12];
+       salary1[0]=30_500;
       for ( int f=0;f<12;f++){
-        System.out.print(salary[f] + " ");
-      }*/
+        System.out.print(salary1[f] + " ");
+      }
 
 
         //2 задача
@@ -51,19 +51,19 @@ public class Main {
         System.out.println();
 
 
-      /*  int [] number = new int[3];
+       int [] number = new int[3];
         number[0] = 1;
         number[1] = 2;
         number[2] = 3;
-      for (int i=0; i< number.length;i++ ){
-      if( i !=number.length - 1)
-      System.out.print(number[i] + ", ");
+      for (int i=0; i< number.length;i++ ) {
+          if (i != number.length - 1)
+              System.out.print(number[i] + ", ");
       else
       System.out.print(number[i]);
 
-        }*/
+        }
 
-       /* System.out.println();
+        System.out.println();
       int []salary = new int[12];
         salary[0]=30_500;
         for ( int f=0;f<12;f++){
@@ -74,15 +74,15 @@ public class Main {
         }
         System.out.println();
 
-        float [] digits = new float[]{1.57f ,7.654f ,9.986f};
+        float [] digit = new float[]{1.57f ,7.654f ,9.986f};
         for( int k=0; k<3; k++){
             if( k!=3-1)
-            System.out.print(digits[k]+", ");
+            System.out.print(digit[k]+", ");
             else
-                System.out.println(digits[k]);
+                System.out.println(digit[k]);
 
 
-        }*/
+        }
 
         // 3 задача
         //Теперь ваша задача – распечатать все элементы всех трех массивов,
@@ -105,38 +105,38 @@ public class Main {
         //- На одной строчке расположены элементы только одного массива
         System.out.println();
         
-        /*int [] numbers = new int[]{1,2,3};
-        for (int i=numbers.length -1; i>= 0;i-- ) {
+        int [] numbers1 = new int[]{1,2,3};
+        for (int i=numbers1.length -1; i>= 0;i-- ) {
             if(i>0)
-            System.out.print(numbers[i] + ", ");
+            System.out.print(numbers1[i] + ", ");
             else
-                System.out.println(numbers[i]);
+                System.out.println(numbers1[i]);
 
         }
         System.out.println();
 
-        int []salary = new int[12];
-        salary[0]=30_500;
-        for ( int f=salary.length-1;f>=0;f--) {
+        int []salary2 = new int[12];
+        salary2[0]=30_500;
+        for ( int f=salary2.length-1;f>=0;f--) {
             if (f>0)
-                System.out.print(salary[f] + ", ");
+                System.out.print(salary2[f] + ", ");
             else
-                System.out.print(salary[f]);
+                System.out.print(salary2[f]);
 
         }
 
         System.out.println();
 
-        float [] digits = new float[]{1.57f ,7.654f ,9.986f};
+        float [] digits1 = new float[]{1.57f ,7.654f ,9.986f};
         for( int k=3-1; k>=0; k--){
         if(k>0)
-            System.out.print(digits[k]+", ");
+            System.out.print(digits1[k]+", ");
             else
-             System.out.print(digits[k]);
+             System.out.print(digits1[k]);
 
         }
 
-         */
+
 
 
 
